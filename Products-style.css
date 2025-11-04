@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1500px;
+  margin: 0;
+  padding: 0px;
+  background: #F2F2F2;
+  
+}
+header{
+  position:fixed;
+  width:100%;
+  padding: 0 100px;
+  top:0;
+  margin: 0;
+  background: #F5F5F5;
+  background-size: cover;
+  display: flex;
+  box-shadow: 0 0 10px #D0C9D7;
+}
+header ul{
+  padding-left:750px;
+  padding-top: 10px;
+  
+  
+}
+
+header ul li{
+  font-size:15px;
+  list-style: none;
+  display: inline;
+  padding-right:10px;
+  direction: none;
+  
+  
+  
+}
+header ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+header ul li button a{
+  margin:10px;
+  
+}
+header ul li button{
+ /* background: #AE56A4;*/
+ background: #C19A6B;
+  padding: 10px;
+  border: none;
+  border-radius:5px;
+}
+main h1{
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  color: #7F5726DE;
+}
+
+img {
+  display:block;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+  transition: all .2s ease;
+  
+}
+
+main .product{
+  padding: 10px 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(6,1fr);
+  margin:20px;
+  margin-top: 50px;
+}
+main .product .a{
+  margin:20px;
+  background:#FFFFFF;
+  box-shadow: 0 0 10px #DCD0EE;
+  border-radius:20px;
+}
+main .product .b{
+  margin-bottom: 25px;
+  font-size: 20px;
+  padding-left:30px ;
+}
+main .product .b p{
+  color:#3E5C98;
+}
+main .product button {
+  padding:10px 120px;
+  border: none;
+  border-radius: 0 0 15px;
+  color: #442D14FC;
+  background: #815A2F3D;
+  font-size: 20px;
+  margin-top: 30px;
+
+}
+img:hover{
+  transform: scale(1.2);
+  overflow: hidden;
+  object-fit: cover;
+}
+footer{
+  /*background: #483F2F29;*/
+  background:#D0C1B4C9 ;
+  color:#1F1305 ;
+  padding: 10px 130px;
+}
+footer .footer{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+ footer .footer .shophub{
+   margin: -100px 0 0 0;
+   
+ }
+ footer .footer .shophub p{
+  margin-right: 50px;
+
+ }
+ footer .footer .link{
+   margin: 0 60px 0 60px;
+ }
+ 
+ footer .footer .service{
+   margin: 0 60px 0 60px;
+ }
+ 
+ footer .footer .contactt{
+   margin: 0 60px 0 60px;
+ }
+ footer p.p{
+   text-align: center;
+   margin-top:70px;
+}
